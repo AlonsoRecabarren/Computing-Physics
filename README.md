@@ -14,29 +14,27 @@ The main goals of the project are:
 - Validate numerical solutions against known analytical results.
 - Study the effects of dissipation and detuning on the system dynamics.
 - Obtain the absorption spectrum of the atom through frequency sweeps.
-
----
-
+  
 ## Physical Model
 
 The system considered is a two-level atom driven by a monochromatic laser field.
 
 The Hamiltonian in the rotating frame is
 
-\[
+$$
 H = -\frac{\delta}{2}\sigma_z + \frac{\Omega}{2}\sigma_x
-\]
+$$
 
 where:
 
-- [\(\Omega\)] is the Rabi frequency.
-- \(\delta = \omega - \omega_0\) is the detuning.
-- \(\omega_0\) is the atomic transition frequency.
-- \(\omega\) is the laser frequency.
+- $\Omega$ is the Rabi frequency.
+- $\delta = \omega - \omega_0$ is the detuning.
+- $\omega_0$ is the atomic transition frequency.
+- $\omega$ is the laser frequency.
 
 Dissipation is introduced through the Lindblad master equation
 
-\[
+$$
 \frac{d\rho}{dt}
 =
 -i[H,\rho]
@@ -52,12 +50,20 @@ L_i^\dagger L_i,
 \rho
 \right\}
 \right)
-\]
+$$
 
 with spontaneous emission represented by
 
-\[
+$$
 L = \sigma_-.
-\]
+$$
 
----
+## Author
+
+Alonso Recabarren
+
+Undergraduate Physics Program
+
+Universidad Técnica Federico Santa María
+
+2026
