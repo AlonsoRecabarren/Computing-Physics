@@ -37,13 +37,14 @@ Dissipation is introduced through the Lindblad master equation
 $$
 \frac{d\rho}{dt}=
 -i[H,\rho]+
-\sum_i \gamma_i
+\sum_i \gamma_i \cdot
 \left(
 L_i \rho L_i^\dagger-
 \frac{1}{2}
 \{L_i^\dagger L_i,\rho\}
 \right)
 $$
+
 with spontaneous emission represented by
 
 $$
