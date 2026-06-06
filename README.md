@@ -35,15 +35,13 @@ where:
 Dissipation is introduced through the Lindblad master equation
 
 $$
-\frac{d\rho}{dt}
-=
+\frac{d\rho}{dt}=
 -i[H,\rho]
 +
 \sum_i
 \gamma_i
 \left(
-L_i\rho L_i^\dagger
--
+L_i\rho L_i^\dagger-
 \frac{1}{2}
 \left\{
 L_i^\dagger L_i,
