@@ -29,7 +29,7 @@ H = -\frac{\delta}{2}\sigma_z + \frac{\Omega}{2}\sigma_x
 
 where:
 
-- \(\Omega\) is the Rabi frequency.
+- [\(\Omega\)] is the Rabi frequency.
 - \(\delta = \omega - \omega_0\) is the detuning.
 - \(\omega_0\) is the atomic transition frequency.
 - \(\omega\) is the laser frequency.
